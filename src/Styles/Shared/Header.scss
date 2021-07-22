@@ -1,0 +1,99 @@
+.header {
+  width: 100%;
+  height: 85vh;
+  background-image: url(../../Assets/homeBg.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 5%;
+  h1 {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 15px;
+    display: none;
+  }
+  button {
+    height: 50px;
+    width: 270px;
+    border: 2px solid transparent;
+    background: white;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 200px;
+    transition: 0.3s linear;
+    display: none;
+    &:hover {
+      cursor: pointer;
+      background: none;
+      color: white;
+      border: 2px solid white;
+    }
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .header {
+    width: 100%;
+    height: 300px;
+    background-image: url(../../Assets/car2.webp);
+    margin-bottom: 10%;
+    h1 {
+      font-size: 1.5rem;
+    }
+    button {
+      width: 200px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .header {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../Assets/car2.webp);
+    margin-bottom: 10%;
+    h1 {
+      font-size: 1.5rem;
+    }
+    button {
+      width: 200px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .header {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../Assets/car2.webp);
+    h1 {
+      font-size: 2.2rem;
+    }
+    button {
+      width: 200px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

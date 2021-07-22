@@ -1,0 +1,134 @@
+.brandsContainer {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 5%;
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .brandsContainer__row {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    ul {
+      list-style: none;
+      width: 40%;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 20px;
+        border: 2px solid transparent;
+        background: #f8f8f8;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 15px;
+        transition: 0.3s linear;
+        img {
+          height: 40px;
+          object-fit: contain;
+          margin-right: 25px;
+        }
+        font-size: 17px;
+        color: black;
+        font-weight: 500;
+        &:hover {
+          border: 2px solid lightgray;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .brandsContainer {
+    width: 70%;
+    height: auto;
+    padding: 15%;
+    h1 {
+      font-size: 1.5rem;
+    }
+    .brandsContainer__row {
+      width: 100%;
+      margin: auto;
+      margin-top: 30px;
+      flex-direction: column;
+      ul {
+        width: 90%;
+      }
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .brandsContainer {
+    width: 70%;
+    height: auto;
+    padding: 15%;
+    h1 {
+      font-size: 1.5rem;
+    }
+    .brandsContainer__row {
+      width: 100%;
+      margin: auto;
+      margin-top: 30px;
+      flex-direction: column;
+      ul {
+        width: 90%;
+      }
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .brandsContainer {
+    width: 70%;
+    height: auto;
+    padding: 15%;
+    h1 {
+      font-size: 1.9rem;
+    }
+    .brandsContainer__row {
+      width: 100%;
+      margin: auto;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      ul {
+        width: 40%;
+      }
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .brandsContainer {
+    width: 90%;
+    h1 {
+      font-size: 1.9rem;
+    }
+    .brandsContainer__row {
+      width: 100%;
+      margin: auto;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      ul {
+        width: 40%;
+      }
+    }
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

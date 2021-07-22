@@ -1,0 +1,97 @@
+.about {
+  width: 75%;
+  height: 70vh;
+  margin: auto;
+  margin-bottom: 2%;
+  text-align: center;
+  h1 {
+    padding-top: 10%;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  p {
+    width: 75%;
+    font-size: 20px;
+    padding-top: 2%;
+    line-height: 33px;
+    margin: auto;
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .about {
+    width: 95%;
+    height: auto;
+    text-align: left;
+    h1 {
+      padding-top: 35%;
+      font-size: 1.5rem;
+      //   text-align: center;
+    }
+    p {
+      width: 100%;
+      font-size: 16px;
+      line-height: 30px;
+      padding-bottom: 10%;
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .about {
+    width: 85%;
+    height: auto;
+    text-align: left;
+    h1 {
+      padding-top: 35%;
+      font-size: 1.5rem;
+      //   text-align: center;
+    }
+    p {
+      width: 100%;
+      font-size: 16px;
+      line-height: 30px;
+      padding-bottom: 10%;
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .about {
+    width: 75%;
+    height: auto;
+    text-align: center;
+    h1 {
+      padding-top: 20%;
+      font-size: 1.8rem;
+      //   text-align: center;
+    }
+    p {
+      width: 100%;
+      font-size: 18px;
+      line-height: 30px;
+      padding-bottom: 10%;
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about {
+    height: auto;
+    h1 {
+      padding-top: 15%;
+    }
+    p {
+      width: 95%;
+      padding-bottom: 10%;
+    }
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

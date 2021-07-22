@@ -1,0 +1,55 @@
+.newsCard {
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  .newsCardImg {
+    width: 100%;
+    height: 45%;
+    border-radius: 20px 20px 0 0;
+    background-image: url(../../Assets/newsCard1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  h2 {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  p {
+    padding: 0 20px;
+    font-size: 17px;
+  }
+  h3 {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .newsCard {
+    width: 100%;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .newsCard {
+    width: 100%;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

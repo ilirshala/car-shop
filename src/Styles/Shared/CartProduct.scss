@@ -1,0 +1,148 @@
+.cartProduct {
+  width: 70%;
+  height: 130px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  color: white;
+  border-bottom: 2px solid #fff;
+  .cartProduct__img {
+    width: 40%;
+    height: auto;
+    img {
+      height: 180px;
+      object-fit: contain;
+      margin: auto;
+    }
+  }
+  .cartProduct__others {
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    svg {
+      width: 80px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .cartProduct {
+    width: 95%;
+    height: auto;
+    padding: 0 0;
+    margin-bottom: 40px;
+    .cartProduct__img {
+      img {
+        height: 80px;
+      }
+    }
+    .cartProduct__others {
+      h3 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      svg {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .cartProduct {
+    width: 95%;
+    height: auto;
+    padding: 0 0;
+    margin-bottom: 40px;
+
+    .cartProduct__img {
+      img {
+        height: 80px;
+      }
+    }
+    .cartProduct__others {
+      h3 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      svg {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .cartProduct {
+    width: 95%;
+    height: auto;
+    padding: 0 0;
+    margin-bottom: 40px;
+
+    .cartProduct__img {
+      img {
+        height: 80px;
+      }
+    }
+    .cartProduct__others {
+      h3 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      svg {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cartProduct {
+    width: 95%;
+    height: auto;
+    padding: 0 0;
+    margin-bottom: 40px;
+
+    .cartProduct__img {
+      img {
+        height: 80px;
+      }
+    }
+    .cartProduct__others {
+      h3 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      svg {
+        margin-left: -25px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}
