@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bce4a7b.chunk.css",
-    "main.js": "/static/js/main.ebd8b053.chunk.js",
-    "main.js.map": "/static/js/main.ebd8b053.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a2a52ae6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a2a52ae6.js.map",
-    "static/js/2.4ab7adea.chunk.js": "/static/js/2.4ab7adea.chunk.js",
-    "static/js/2.4ab7adea.chunk.js.map": "/static/js/2.4ab7adea.chunk.js.map",
-    "static/js/3.fa320a37.chunk.js": "/static/js/3.fa320a37.chunk.js",
-    "static/js/3.fa320a37.chunk.js.map": "/static/js/3.fa320a37.chunk.js.map",
+    "main.css": "/static/css/main.cbc85414.chunk.css",
+    "main.js": "/static/js/main.33249f38.chunk.js",
+    "main.js.map": "/static/js/main.33249f38.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.823999c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.823999c1.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.cd8b7703.chunk.js": "/static/js/2.cd8b7703.chunk.js",
+    "static/js/2.cd8b7703.chunk.js.map": "/static/js/2.cd8b7703.chunk.js.map",
+    "static/js/3.90d58e5a.chunk.js": "/static/js/3.90d58e5a.chunk.js",
+    "static/js/3.90d58e5a.chunk.js.map": "/static/js/3.90d58e5a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0bce4a7b.chunk.css.map": "/static/css/main.0bce4a7b.chunk.css.map",
-    "static/js/2.4ab7adea.chunk.js.LICENSE.txt": "/static/js/2.4ab7adea.chunk.js.LICENSE.txt",
+    "static/css/2.ae9e5f60.chunk.css.map": "/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.cbc85414.chunk.css.map": "/static/css/main.cbc85414.chunk.css.map",
+    "static/js/2.cd8b7703.chunk.js.LICENSE.txt": "/static/js/2.cd8b7703.chunk.js.LICENSE.txt",
     "static/media/audi1.06ea1d41.webp": "/static/media/audi1.06ea1d41.webp",
     "static/media/audi10.2a8d5c9a.webp": "/static/media/audi10.2a8d5c9a.webp",
     "static/media/audi11.6b9a404b.webp": "/static/media/audi11.6b9a404b.webp",
@@ -94,9 +96,10 @@
     "static/media/vw4.ce52f0a2.webp": "/static/media/vw4.ce52f0a2.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2a52ae6.js",
-    "static/js/2.4ab7adea.chunk.js",
-    "static/css/main.0bce4a7b.chunk.css",
-    "static/js/main.ebd8b053.chunk.js"
+    "static/js/runtime-main.823999c1.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.cd8b7703.chunk.js",
+    "static/css/main.cbc85414.chunk.css",
+    "static/js/main.33249f38.chunk.js"
   ]
 }

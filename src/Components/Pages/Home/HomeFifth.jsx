@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../../Styles/Pages/Home/HomeFifth.scss";
 import NewsCard from "../../Shared/NewsCard";
 import Carousel from "react-elastic-carousel";
 import { newsCard } from "./brandsList";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function HomeFifth() {
+  useEffect(() => {
+    AOS.init({
+      disable: "mobile",
+      duration: 700,
+    });
+  }, []);
+
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 1, itemsToScroll: 1, pagination: false },
@@ -28,6 +37,7 @@ function HomeFifth() {
               paragraf={news.paragraf}
               journalist={news.journalist}
               key={key}
+              dataaos='flip-right'
             />
           );
         })}

@@ -1,9 +1,9 @@
 import React from "react";
 import "../../Styles/Shared/NewsCard.scss";
 
-function NewsCard({ img, title, paragraf, journalist }) {
+function NewsCard({ img, title, paragraf, journalist, dataaos }) {
   return (
-    <div className='newsCard'>
+    <div className='newsCard' data-aos={dataaos}>
       <div
         className='newsCardImg'
         style={{ backgroundImage: `url(${img})` }}></div>
