@@ -2,13 +2,12 @@ import React from "react";
 import VwCon from "../Components/Pages/Brands/VwCon";
 import CarsNavigator from "../Components/Shared/CarsNavigator";
 import Description from "../Components/Shared/Description";
-import BlackNavbar from "../Components/Shared/BlackNavbar";
+
 import logo34 from "../Assets/logos/logo34.png";
 
 function VW() {
   return (
     <div>
-      <BlackNavbar />
       <CarsNavigator title='Volkswagen' />
 
       <Description

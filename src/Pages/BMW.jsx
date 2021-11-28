@@ -2,13 +2,12 @@ import React from "react";
 import BmwCon from "../Components/Pages/Brands/BmwCon";
 import CarsNavigator from "../Components/Shared/CarsNavigator";
 import Description from "../Components/Shared/Description";
-import BlackNavbar from "../Components/Shared/BlackNavbar";
+
 import logo4 from "../Assets/logos/logo4.png";
 
 function BMW() {
   return (
     <div>
-      <BlackNavbar />
       <CarsNavigator title='BMW' />
 
       <Description

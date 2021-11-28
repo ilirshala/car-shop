@@ -2,13 +2,12 @@ import React from "react";
 import RomeoCon from "../Components/Pages/Brands/RomeoCon";
 import CarsNavigator from "../Components/Shared/CarsNavigator";
 import Description from "../Components/Shared/Description";
-import BlackNavbar from "../Components/Shared/BlackNavbar";
+
 import logo2 from "../Assets/logos/logo2.png";
 
 function AlfaRomeo() {
   return (
     <div>
-      <BlackNavbar />
       <CarsNavigator title='Alfa Romeo' />
       <Description
         img={logo2}

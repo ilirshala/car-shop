@@ -14,6 +14,8 @@ function Navbar() {
   const wrapperRef = useRef(null);
   const [navbar, setNavbar] = useState(false);
   const [showNavbar, setShowNavbar] = useState(false);
+  const url = window.location.pathname;
+  const [colorNavbar, setColorNavbar] = useState(false);
 
   useEffect(() => {
     const changeBackground = () => {
@@ -26,6 +28,15 @@ function Navbar() {
 
     window.addEventListener("scroll", changeBackground);
   }, []);
+
+  //UseEffect where we check the path to change the color
+  useEffect(() => {
+    if (url === "/" || url === "/brands") {
+      setColorNavbar(false);
+    } else {
+      setColorNavbar(true);
+    }
+  }, [url]);
 
   //this is for mobile menu click outside close it
   useEffect(() => {
@@ -48,9 +59,20 @@ function Navbar() {
         style={{ transform: showNavbar ? "translateX(0)" : "" }}>
         <NavbarResp />
       </div>
-      <div className={navbar ? "navbarActive navbar" : "navbar"}>
+      <div
+        className={[
+          navbar
+            ? "navbarActive navbar"
+            : "navbar" && colorNavbar
+            ? "navbarChangeTextColor navbar"
+            : "navbar"
+        ]}>
         <div className='logo'>
-          <Link to='/'>
+          <Link
+            to='/'
+            style={{
+              color: url ? "" : "black"
+            }}>
             <h1>
               Car<span>Company</span>
             </h1>
@@ -83,14 +105,14 @@ function Navbar() {
           <MenuOpenIcon
             style={{
               display: showNavbar ? "none" : "",
-              transition: "0.2s linear",
+              transition: "0.2s linear"
             }}
             onClick={() => setShowNavbar(!showNavbar)}
           />
           <CloseIcon
             style={{
               display: showNavbar ? "" : "none",
-              transition: "0.2s linear",
+              transition: "0.2s linear"
             }}
             onClick={() => setShowNavbar(!showNavbar)}
           />

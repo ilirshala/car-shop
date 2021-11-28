@@ -2,13 +2,12 @@ import React from "react";
 import ChevCon from "../Components/Pages/Brands/ChevCon";
 import CarsNavigator from "../Components/Shared/CarsNavigator";
 import Description from "../Components/Shared/Description";
-import BlackNavbar from "../Components/Shared/BlackNavbar";
+
 import logo7 from "../Assets/logos/logo7.png";
 
 function Chevrolet() {
   return (
     <div>
-      <BlackNavbar />
       <CarsNavigator title='Chevrolet' />
 
       <Description

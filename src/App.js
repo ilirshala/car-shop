@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Footer from "./Components/Shared/Footer";
+import Navbar from "./Components/Shared/Navbar";
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Brands from "./Pages/Brands";
@@ -24,10 +25,12 @@ import ScrollToTop from "./ScrollToTop";
 import About from "./Pages/About";
 import NewCars from "./Pages/NewCars";
 import Signup from "./Pages/Signup";
+import CarDetail from "./Pages/CarDetail";
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <div className='app'>
         <ScrollToTop />
         <Switch>
@@ -51,6 +54,7 @@ function App() {
           <Route path='/signUp' component={Signup} />
           <Route path='/about-us' component={About} />
           <Route path='/new-cars' component={NewCars} />
+          <Route path='/car/:carId' component={CarDetail} />
           <Route path='/' component={Home} />
         </Switch>
       </div>

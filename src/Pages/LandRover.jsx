@@ -2,12 +2,11 @@ import React from "react";
 import LandCon from "../Components/Pages/Brands/LandCon";
 import CarsNavigator from "../Components/Shared/CarsNavigator";
 import Description from "../Components/Shared/Description";
-import BlackNavbar from "../Components/Shared/BlackNavbar";
+
 import logo20 from "../Assets/logos/logo20.png";
 function LandRover() {
   return (
     <div>
-      <BlackNavbar />
       <CarsNavigator title='Land Rover' />
 
       <Description

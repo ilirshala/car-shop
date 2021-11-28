@@ -10,7 +10,6 @@ function Checkout() {
   const [{ basket }] = useStateValue();
   return (
     <>
-      <BlackNavbar />
       <div className='checkout'>
         <div className='checkout__things'>
           <div className='checkout__img'>
@@ -49,7 +48,7 @@ function Checkout() {
         <div className='checkoutPrice'>
           <div>
             <CurrencyFormat
-              renderText={(value) => (
+              renderText={value => (
                 <>
                   <h3>
                     Subtotal: <p>{value}</p>

@@ -9,7 +9,6 @@ import Navbar from "../Components/Shared/Navbar";
 function Home() {
   return (
     <div>
-      <Navbar />
       <Header bgImg={homeBg} />
       <HomeThird />
       <HomeFourth />

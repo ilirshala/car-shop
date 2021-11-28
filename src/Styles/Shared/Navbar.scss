@@ -21,6 +21,29 @@
   }
 }
 
+.navbarChangeTextColor.navbar {
+  background: white;
+  color: black;
+  border-bottom: 1px solid lightgray;
+  .logo {
+    a {
+      color: black;
+    }
+  }
+  .links {
+    ul {
+      a {
+        color: black;
+      }
+      li {
+        a {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
 .navbarResponse {
   display: none;
 }
